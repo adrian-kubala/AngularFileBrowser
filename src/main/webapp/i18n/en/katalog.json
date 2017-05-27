@@ -1,0 +1,23 @@
+{
+    "angularFileBrowserApp": {
+        "katalog" : {
+            "home": {
+                "title": "Katalogs",
+                "createLabel": "Create a new Katalog",
+                "createOrEditLabel": "Create or edit a Katalog"
+            },
+            "created": "A new Katalog is created with identifier {{ param }}",
+            "updated": "A Katalog is updated with identifier {{ param }}",
+            "deleted": "A Katalog is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Katalog {{ id }}?"
+            },
+            "detail": {
+                "title": "Katalog"
+            },
+            "nazwa": "Nazwa",
+            "nadrzedny": "Nadrzedny",
+            "plik": "Plik"
+        }
+    }
+}
