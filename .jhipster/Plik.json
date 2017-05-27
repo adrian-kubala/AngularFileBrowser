@@ -1,0 +1,25 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "katalog",
+            "otherEntityName": "katalog",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "nazwa"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nazwa",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170527105626",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "plik",
+    "pagination": "no"
+}

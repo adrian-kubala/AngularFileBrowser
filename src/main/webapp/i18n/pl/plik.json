@@ -1,0 +1,22 @@
+{
+    "angularFileBrowserApp": {
+        "plik" : {
+            "home": {
+                "title": "Pliks",
+                "createLabel": "Dodaj Plik",
+                "createOrEditLabel": "Dodaj lub edytuj: Plik"
+            },
+            "created": "Utworzono nowy Plik z identyfikatorem {{ param }}",
+            "updated": "Uaktualniono Plik z identyfikatorem {{ param }}",
+            "deleted": "Usunięto Plik z identyfikatorem {{ param }}",
+            "delete": {
+                "question": "Czy na pewno chcesz usunąć Plik {{ id }}?"
+            },
+            "detail": {
+                "title": "Plik"
+            },
+            "nazwa": "Nazwa",
+            "katalog": "Katalog"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "angularFileBrowserApp": {
+        "plik" : {
+            "home": {
+                "title": "Pliks",
+                "createLabel": "Create a new Plik",
+                "createOrEditLabel": "Create or edit a Plik"
+            },
+            "created": "A new Plik is created with identifier {{ param }}",
+            "updated": "A Plik is updated with identifier {{ param }}",
+            "deleted": "A Plik is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Plik {{ id }}?"
+            },
+            "detail": {
+                "title": "Plik"
+            },
+            "nazwa": "Nazwa",
+            "katalog": "Katalog"
+        }
+    }
+}
