@@ -25,17 +25,13 @@
         <table class="jh-table table table-striped">
             <thead>
                 <tr>
-                    <th><span data-translate="global.field.id">ID</span></th>
                     <th><span data-translate="angularFileBrowserApp.katalog.nazwa">Nazwa</span></th>
-                    <th><span data-translate="angularFileBrowserApp.katalog.nadrzedny">Nadrzedny</span></th>
                     <th></th>
                 </tr>
             </thead>
             <tbody>
                 <tr ng-repeat="katalog in vm.katalogs track by katalog.id">
-                    <td><a ui-sref="katalog-detail({id:katalog.id})">{{katalog.id}}</a></td>
                     <td>{{katalog.nazwa}}</td>
-                    <td>{{katalog.nadrzedny}}</td>
                     <td class="text-right">
                         <div class="btn-group flex-btn-group-container">
                             <button type="submit"
